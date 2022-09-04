@@ -1,0 +1,23 @@
+{
+  "name": "top.lc951.nw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.html",
+  "window": {
+    "toolbar": false,
+    "show": true,
+    "width": 1000,
+    "height": 600,
+	  "min_width": 800,
+    "min_height": 500
+  },
+  "scripts": {
+    "start": "nw ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nw": "^0.67.1",
+    "nwjs-builder-phoenix": "^1.15.0"
+  }
+}
