@@ -1,5 +1,5 @@
 {
-  "name": "top.lc951.nw",
+  "name": "myfile-explorer",
   "version": "1.0.0",
   "description": "",
   "main": "index.html",
@@ -12,10 +12,14 @@
     "min_height": 500
   },
   "scripts": {
-    "start": "nw ."
+    "start": "nw .",
+    "dist": "build --tasks mac-x64 --mirror https://npm.taobao.org/mirrors/nwjs/ ."
   },
   "author": "",
   "license": "ISC",
+  "build": {
+    "nwVersion": "0.41.2"
+  },
   "devDependencies": {
     "nw": "^0.67.1",
     "nwjs-builder-phoenix": "^1.15.0"
